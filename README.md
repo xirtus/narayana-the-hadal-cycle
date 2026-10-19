@@ -1,5 +1,7 @@
 # NARAYANA — The Hadal Cycle
 
+![NARAYANA opening](docs/screenshot.jpg)
+
 A playable Three.js underwater adventure based on [plan.txt](plan.txt) and [the gamification design](docs/gamification.txt). Three separate experiences are preserved: **Original open ocean**, **Original trench**, and **Terraced descent**. Each keeps its own location, discoveries, victories and progression; preferences, turbo and UV controls are shared.
 
 ## Play

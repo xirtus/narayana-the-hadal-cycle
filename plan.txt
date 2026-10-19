@@ -1,0 +1,1524 @@
+# NARAYANA: THE HADAL CYCLE
+
+## MASTER DIRECTIVE
+
+Build a complete, visually spectacular Three.js/WebGPU third-person underwater action-adventure called **NARAYANA: THE HADAL CYCLE**.
+
+The player is a small realistic cephalopod avatar of Narayana who begins on the peak of a tiny volcanic island in the Pacific and descends continuously through the ocean, layer by layer, until reaching the floor of the Mariana Trench.
+
+The experience should combine:
+
+* The grace, beauty, scale and meditative wonder of **ABZÛ**
+* The animal movement, sonar, mystery and alien oceanic feeling of **Ecco the Dolphin**
+* The exploration, ecology, terror, discovery and depth progression of **Subnautica**
+* The creature growth and predatory progression of games like **Maneater**
+* The environmental mystery and almost wordless storytelling of **Journey**
+* Real deep-sea biology, geology and oceanography
+* Vedic cosmology, especially Narayana, Vishnu, Shiva, Varuna, Shesha, cosmic cycles, reincarnation, preservation and dissolution
+* Procedural ocean ecosystems and partially procedural level generation
+* Extremely responsive cephalopod locomotion where the tentacles are central to physics, movement, combat and interaction
+
+This must feel like an actual finished game, not a tech demo.
+
+The ocean should initially appear believable and naturalistic. The supernatural should emerge gradually as the player descends.
+
+At 100 meters, this seems like Earth.
+
+At 1,000 meters, something feels strange.
+
+At 4,000 meters, ancient structures begin appearing.
+
+At 8,000 meters, biology and mythology are becoming inseparable.
+
+At the bottom of the Mariana Trench, physical reality has almost completely broken open.
+
+There are lava fissures, hydrothermal cathedrals, impossible creatures, ancient machinery, Vedic geometry, Nāga structures and enormous submerged star gates leading somewhere outside ordinary space and time.
+
+---
+
+# 1. CENTRAL DESIGN PHILOSOPHY
+
+The squid is the game.
+
+Do not build a generic swimming controller and attach tentacle meshes to it.
+
+The player should constantly feel like they are inhabiting an actual cephalopod.
+
+The mantle, fins, arms, tentacles, suckers, chromatophores and jet propulsion must all participate in movement and gameplay.
+
+Every major system should ask:
+
+**How would a supernatural squid solve this?**
+
+Do not give the squid a human inventory, sword, backpack or generic RPG abilities when its biology can provide something more interesting.
+
+Its body is its toolset.
+
+Its body is its inventory.
+
+Its body is its interface with the world.
+
+---
+
+# 2. THE COSMIC STORY
+
+The mythological conflict is not a simplistic good-god-versus-evil-god story.
+
+Vishnu represents preservation, continuity, memory, order and the maintenance of worlds.
+
+Shiva represents transformation, dissolution, destruction of obsolete forms and the clearing of space for creation.
+
+Both are necessary.
+
+The eternal spiritual conflict exists because reality continually oscillates between these principles.
+
+Deep beneath the Pacific, something has disturbed that equilibrium.
+
+Ancient Asuric intelligences trapped outside ordinary time have discovered the deepest physical point on Earth and are attempting to use it as an anchor.
+
+They are turning the cosmic cycle into a machine.
+
+Instead of creation, preservation, dissolution and rebirth, they want one permanent reality constructed entirely according to their own image.
+
+The Mariana Trench has become a wound through which multiple ages and worlds are touching.
+
+### Opening
+
+Begin above water.
+
+A tiny black volcanic island protrudes from an impossibly large Pacific Ocean.
+
+Storm clouds gather.
+
+The player controls a tiny juvenile squid trapped in a volcanic tide pool close to the summit.
+
+Through environmental events and a brief cinematic, we see a mythic vision of Vishnu reclining upon Shesha on the cosmic ocean.
+
+Varuna, the intelligence of the waters, calls downward through the physical ocean.
+
+The little squid enters the sea.
+
+The player initially has no idea whether the vision was literal, psychic or symbolic.
+
+As the journey continues, it becomes apparent that the squid itself is an emanation, avatar or dream of Narayana.
+
+Meanwhile Shiva's presence manifests through earthquakes, lava, extinctions, collapsing ruins and the cosmic rhythm of Tandava.
+
+The player gradually discovers that Shiva is not necessarily the enemy.
+
+The real question is whether the existing world should be preserved, transformed or allowed to end.
+
+---
+
+# 3. REINCARNATION
+
+Death is canonical.
+
+Do not simply display GAME OVER.
+
+When the squid dies:
+
+1. The screen dissolves into clouds of chromatophore patterns.
+2. The player's consciousness travels through an abstract cosmic ocean.
+3. A new juvenile incarnation emerges from the most recently activated sanctuary.
+4. The procedural configuration of nearby tunnels, prey, predators and events partially changes.
+5. Important spiritual knowledge remains.
+
+This makes death part of the mythology and game mechanics.
+
+Permanent progression represents **samskara**, impressions carried between incarnations.
+
+Temporary biological growth belongs only to the current incarnation.
+
+This creates a light roguelite structure without turning the game into a conventional roguelike.
+
+---
+
+# 4. THE SQUID MUST ACTUALLY MOVE LIKE A CEPHALOPOD
+
+This is the single most important technical feature.
+
+## Never do this
+
+Do not move a capsule rigidbody around and simply animate eight tentacles behind it.
+
+## Instead
+
+Calculate movement as forces created by the squid's body.
+
+### Mantle jet
+
+The squid pulls water into its mantle and explosively expels it.
+
+Use this for:
+
+* Burst acceleration
+* Escaping predators
+* Dodging
+* Breaking fragile structures
+* Launching into currents
+* Breaching the surface
+* Rapid reverse movement
+
+The mantle visibly expands before firing.
+
+A strong jet folds the arms backward around the body because of hydrodynamic drag.
+
+Jet propulsion consumes short-term muscular stamina.
+
+### Fin locomotion
+
+For calm cruising, mantle fins create continuous low-energy propulsion.
+
+This is the default exploration movement.
+
+Movement should look serene rather than constantly frantic.
+
+### Tentacle swimming
+
+When accelerating without jetting, arms rhythmically contract, extend and streamline.
+
+Individual arms contribute small forces to the body.
+
+The player body therefore reacts naturally to their movement.
+
+### Surface crawling
+
+Near rock, coral, wreckage or ruins, the squid can stop swimming and **walk using its arms**.
+
+Tentacles detect surfaces.
+
+Suckers establish contact points.
+
+Arms pull the mantle toward those anchors.
+
+The squid can crawl:
+
+* Across rocks
+* Under ledges
+* Along ceilings
+* Through ruins
+* Across vertical trench walls
+* Inside shipwrecks
+* Through coral forests
+
+This should feel completely different from swimming.
+
+### Grappling
+
+Any sufficiently strong surface can be grabbed.
+
+One tentacle can anchor while the squid swings.
+
+Multiple arms can establish several anchors simultaneously.
+
+The player can:
+
+* Grapple a ceiling
+* Pull around a corner
+* Swing through caves
+* Catch themselves during currents
+* Grab moving creatures
+* Attach to whales
+* Ride sharks
+* Pull open doors
+* Tear plants apart
+* Drag objects
+* Hold prey
+* Brace against pressure currents
+
+Predators sometimes detect high-energy jet propulsion.
+
+In dangerous areas, silent tentacle traversal can therefore be safer.
+
+### Body orientation
+
+The squid's body orientation should result from:
+
+* Tentacle forces
+* Jet direction
+* Fin steering
+* Water velocity
+* Collision forces
+* Player steering
+* Buoyancy
+* Drag
+
+The creature should feel physical rather than like a spaceship.
+
+---
+
+# 5. PROCEDURAL TENTACLE SYSTEM
+
+Each major arm needs:
+
+* Root joint
+* Procedural spline
+* Multiple simulated control points
+* IK target
+* Contact detection
+* Grip state
+* Sucker contact points
+* Local muscle tension
+* Drag
+* Curl
+* Relaxation
+* Collision avoidance
+
+Use an optimized procedural solution rather than giving every sucker a rigidbody.
+
+Build several levels of simulation.
+
+### High importance arms
+
+The nearest 2 to 4 arms receive detailed physics and IK.
+
+### Secondary arms
+
+Use simplified procedural dynamics.
+
+### Distant animation
+
+Use spline animation and shader deformation.
+
+Tentacles should automatically search for nearby surfaces when crawling.
+
+They should not constantly clip through geometry.
+
+When swimming, their configuration should respond to acceleration.
+
+When threatened, they should bunch together.
+
+When feeding, several arms should independently manipulate prey.
+
+When investigating something, one or two arms may reach toward it before the player explicitly interacts.
+
+This gives the animal visible intelligence.
+
+---
+
+# 6. CHROMATOPHORES
+
+The skin of the squid is an entire gameplay system.
+
+The player can dynamically alter:
+
+* Color
+* Contrast
+* Pattern
+* Brightness
+* Pulsation
+* Bioluminescence
+* Texture frequency
+
+Chromatophores serve several purposes.
+
+### Camouflage
+
+Match nearby rock, sand, coral or vegetation.
+
+Predator detection probability decreases.
+
+### Hunting
+
+Approach prey while visually blending into the environment.
+
+### Communication
+
+Certain species understand particular color patterns.
+
+Instead of dialogue menus, the player learns patterns.
+
+Examples:
+
+* Calm
+* Threat
+* Follow
+* Food
+* Warning
+* Courtship
+* Submission
+* Curiosity
+
+Eventually supernatural creatures communicate through extremely elaborate moving mandalas across their skin.
+
+### Spiritual language
+
+Ancient gates respond to specific chromatophore geometries.
+
+The squid's own skin eventually becomes a living yantra.
+
+---
+
+# 7. INK
+
+Ink must be more than a smoke grenade.
+
+Different upgrades allow ink to become:
+
+### Defensive ink
+
+Creates a large visual obstruction.
+
+### Decoy ink
+
+Forms a temporary squid-shaped pseudo-creature.
+
+### Predator ink
+
+Contains chemicals attracting other predators to the target.
+
+### Bioluminescent ink
+
+Illuminates caverns and marks paths.
+
+### Conductive ink
+
+Allows interactions with electrical creatures and machinery.
+
+### Ritual ink
+
+At deep levels, creates temporary geometric glyphs used to activate Vedic machinery and star gates.
+
+Ink should interact with currents and visibly deform through the water volume.
+
+---
+
+# 8. SONAR AND PERCEPTION
+
+Borrow the strongest conceptual idea from Ecco without simply copying it.
+
+The squid can release a **Narayana Pulse**.
+
+Initially this behaves like biological sonar and pressure perception.
+
+A wave expands outward through the environment.
+
+For several seconds the player sees:
+
+* Terrain silhouettes
+* Moving creatures
+* Hollow caves
+* Weak rock
+* Ancient mechanisms
+* Nearby heartbeats
+* Current directions
+
+At enormous depth, sonar evolves into something stranger.
+
+The pulse begins detecting objects that are not entirely located in the current world.
+
+You might see a gigantic serpent wrapped around a mountain that disappears when ordinary vision returns.
+
+---
+
+# 9. CORE PLAYER LOOP
+
+The rhythm should be:
+
+**Explore -> Observe -> Hunt or evade -> Solve -> Grow -> Discover -> Descend -> Transform**
+
+Exploration must alternate between tranquility and terror.
+
+Do not fill every area with combat.
+
+Sometimes the most powerful moment should be seeing an enormous whale pass overhead.
+
+Sometimes hundreds of manta rays should migrate through a shaft.
+
+Sometimes absolutely nothing should be visible beneath you for several hundred meters.
+
+The player should occasionally choose to descend into apparently infinite blackness without knowing what is waiting below.
+
+---
+
+# 10. ORGANIC PROGRESSION
+
+Avoid conventional weapons and armor.
+
+Progression changes the animal.
+
+Three interconnected evolutionary paths correspond loosely to cosmic principles.
+
+## Narayana / Varuna
+
+Water, perception and adaptation.
+
+Unlock:
+
+* Better sonar
+* Stronger swimming
+* Current sensing
+* Chromatophore mastery
+* Improved grappling
+* Pressure adaptation
+* Symbiosis
+* Bioluminescence
+
+## Vishnu
+
+Preservation and protection.
+
+Unlock:
+
+* Regeneration
+* Defensive chromatophore shell
+* Improved camouflage
+* Protective ink
+* Creature pacification
+* Healing symbiosis
+* Temporary stabilization of collapsing environments
+
+## Shiva
+
+Transformation and destruction.
+
+Unlock:
+
+* Violent mantle jets
+* Tentacle strikes
+* Grapple tearing
+* Pressure shockwaves
+* Armor breaking
+* Predator intimidation
+* Thermal resistance
+* Ability to destroy corrupted structures
+
+The most powerful abilities require combinations instead of forcing the player into only one tree.
+
+---
+
+# 11. SIZE PROGRESSION
+
+The squid physically grows.
+
+## Hatchling
+
+Tiny, vulnerable and extremely agile.
+
+Can enter holes larger creatures cannot.
+
+Primary gameplay:
+
+* Hiding
+* Exploring tide pools
+* Eating plankton and tiny crustaceans
+* Learning chromatophores
+
+## Juvenile
+
+Unlock:
+
+* Ink
+* Basic grappling
+* Hunting small fish
+* More powerful jet
+* Basic sonar
+
+## Adult
+
+Unlock:
+
+* Large prey
+* Multiple simultaneous tentacle anchors
+* Environmental manipulation
+* Combat against medium predators
+* Riding larger animals
+
+## Giant / Divine Squid
+
+Late game.
+
+The squid becomes an enormous abyssal cephalopod.
+
+Small creatures now form schools around the player.
+
+The player can grapple leviathans.
+
+Ancient doors that once appeared gigantic can now be physically moved.
+
+Scale should fundamentally change gameplay rather than merely increasing statistics.
+
+---
+
+# 12. WORLD STRUCTURE
+
+Build the ocean as a giant vertically streamed world.
+
+The complete descent should feel approximately continuous.
+
+## PROLOGUE: THE ISLAND
+
+Altitude to sea level.
+
+A tiny volcanic mountain rises from the ocean.
+
+Features:
+
+* Tide pools
+* Crabs
+* Seabirds
+* Rain
+* Waves
+* Waterfalls
+* Black volcanic rock
+* Tiny caves
+* First vision of Vishnu and Shesha
+
+Teach crawling before teaching swimming.
+
+The squid reaches a waterfall and is carried down into the Pacific.
+
+Then the world opens.
+
+---
+
+## ZONE I: SUNLIGHT KINGDOM
+
+0 to 200 meters.
+
+Beautiful tropical water.
+
+Coral reefs.
+
+Sea turtles.
+
+Dolphins.
+
+Manta rays.
+
+Sharks.
+
+Huge schools of fish.
+
+Kelp.
+
+Shipwrecks.
+
+Whale songs.
+
+The game initially feels peaceful.
+
+Introduce:
+
+* Swimming
+* Hunting
+* Chromatophores
+* Basic sonar
+* Riding large animals
+* Environmental puzzles
+
+The player repeatedly sees an impossibly deep blue canyon in the distance.
+
+---
+
+## ZONE II: TWILIGHT DESCENT
+
+200 to 1,000 meters.
+
+Sunlight becomes blue and dim.
+
+Bioluminescence begins.
+
+Vertical cliffs dominate the geography.
+
+Creatures include:
+
+* Lanternfish
+* Squid
+* Jellyfish
+* Siphonophores
+* Oarfish
+* Hatchetfish
+* Predatory sharks
+
+Human infrastructure appears:
+
+* Research cables
+* Autonomous submarines
+* Sonar stations
+* Lost ROVs
+* Secret listening arrays
+
+The first architecture that cannot be explained as human appears embedded in the trench wall.
+
+---
+
+## ZONE III: MIDNIGHT OCEAN
+
+1,000 to 4,000 meters.
+
+Almost total darkness.
+
+This area should emphasize fear of scale.
+
+Large regions have almost no terrain.
+
+The player descends through black open ocean.
+
+The only references for distance may be falling organic particles and distant bioluminescence.
+
+Occasional enormous creatures emerge from darkness.
+
+Giant squid encounters begin.
+
+Sperm whales dive through parts of the environment.
+
+Ancient geometric structures appear.
+
+Some appear older than human civilization.
+
+---
+
+## ZONE IV: ABYSSAL KINGDOM
+
+4,000 to 6,000 meters.
+
+The player reaches vast abyssal plains.
+
+Features:
+
+* Sea cucumbers
+* Tripod fish
+* Dumbo octopus
+* Glass sponges
+* Xenophyophores
+* Whale falls
+* Brine pools
+* Methane seeps
+
+Entire ecosystems gather around dead leviathans.
+
+Ruins become significant.
+
+Stone architecture seems simultaneously natural and artificial.
+
+Large Nāga motifs begin appearing.
+
+The player discovers that the structures may not have been built in ordinary chronological order.
+
+---
+
+## ZONE V: THE HADAL GATES
+
+6,000 to 8,000 meters.
+
+The trench narrows.
+
+Massive vertical walls create underwater canyons.
+
+Earthquakes occur.
+
+Currents become violent.
+
+Predators have exaggerated pressure-adapted anatomy.
+
+The environment mixes genuine hadal biology with increasingly impossible creatures.
+
+Introduce:
+
+* Pressure storms
+* Collapsing caverns
+* Lava intrusions
+* Superheated water
+* Giant amphipods
+* Albino predators
+* Ancient guardians
+
+Shiva's presence becomes obvious.
+
+Every earthquake resembles a beat in an impossibly slow cosmic dance.
+
+---
+
+## ZONE VI: MARIANA LABYRINTH
+
+8,000 to 10,500 meters.
+
+Reality begins fragmenting.
+
+Normal terrain exists alongside structures that seem to occupy more dimensions than they should.
+
+Possible encounters:
+
+* Nāga leviathans
+* Crystal jellyfish
+* Blind dragonfish swarms
+* Giant translucent cephalopods
+* Living mandalas
+* Stone creatures
+* Asuric biological machines
+
+Some passages change after reincarnation.
+
+Some exist only when viewed using sonar.
+
+Others can only be entered while displaying the correct chromatophore pattern.
+
+---
+
+## ZONE VII: CHALLENGER DEEP
+
+Approximately 10,500 to 11,000 meters.
+
+The biological and mythological worlds merge completely.
+
+Hydrothermal vents tower like temples.
+
+Molten rock illuminates fissures.
+
+Huge fields of tube worms resemble forests.
+
+The ocean floor contains enormous circular machines.
+
+At first they resemble ruins.
+
+Eventually the player realizes they are **star gates**.
+
+They predate the surrounding geology.
+
+Shesha-like creatures coil around them.
+
+The largest structure is buried underneath the trench floor.
+
+The entire Mariana Trench may actually have formed around it.
+
+---
+
+## ZONE VIII: THE COSMIC OCEAN
+
+Endgame.
+
+The deepest gate opens.
+
+Water flows downward through something that should not physically exist.
+
+The squid crosses the gate.
+
+The player sees the Pacific Ocean, Earth, stars and cosmic waters layered over one another.
+
+Vishnu and Shiva are no longer distant mythological images.
+
+Their conflict becomes environmental reality.
+
+Preservation is freezing entire worlds into permanence.
+
+Dissolution is tearing entire timelines apart.
+
+The Asuric mechanism is forcing both principles into catastrophe.
+
+The player must enter the mechanism itself.
+
+---
+
+# 13. BOSSES SHOULD BE ENVIRONMENTS
+
+Avoid generic health-bar monsters whenever possible.
+
+Major encounters should mix traversal, ecology and combat.
+
+Examples:
+
+### The Sleeper Whale
+
+A colossal whale infected by Asuric organisms.
+
+The player swims across and inside its body while attempting to remove parasites without killing it.
+
+### Nāga of the Thermocline
+
+An enormous serpent moving through vertical currents.
+
+The squid must grapple sections of its body and travel with it through the ocean.
+
+### The Drowned Rig
+
+An abandoned human deep-sea installation possessed by an organism that has grown through the entire structure.
+
+The building itself behaves like a creature.
+
+### The Blind Leviathan
+
+Cannot see chromatophores.
+
+It detects pressure disturbances.
+
+Jet propulsion becomes extremely dangerous.
+
+The safest strategy is tentacle crawling along trench walls.
+
+### Asuric Makara
+
+A gigantic biomechanical marine guardian.
+
+Its armor must be opened by physically grappling several points at once.
+
+### Tandava
+
+Not literally a boss fight against Shiva.
+
+The environment itself begins collapsing rhythmically.
+
+The player must navigate destruction synchronized with a cosmic percussion pattern.
+
+---
+
+# 14. PROCEDURAL WORLD GENERATION
+
+Do not create a completely random ocean.
+
+Use **procedural curation**.
+
+Every biome contains:
+
+1. A authored macro route downward.
+2. Procedural cavern and side-route generation.
+3. Procedural ecology.
+4. Procedural geological decoration.
+5. Rare hand-authored master locations.
+
+The world therefore remains coherent while still feeling different between incarnations.
+
+## Master locations
+
+Create a library of highly polished authored locations that can appear inside procedural regions.
+
+Examples:
+
+* Whale graveyard
+* Sunken submarine
+* Nāga temple
+* Brine waterfall
+* Giant clam cavern
+* Crystal forest
+* Asuric machine room
+* Hydrothermal cathedral
+* Vertical shark migration shaft
+* Abandoned research station
+* Underwater ossuary
+* Black smoker labyrinth
+
+Once encountered during an incarnation, the same master room should not repeat.
+
+---
+
+# 15. PROCEDURAL ECOLOGY
+
+Creatures should not simply spawn randomly around the player.
+
+Each species gets ecological rules:
+
+* Preferred depth
+* Temperature
+* Light level
+* Terrain
+* Food
+* Predator relationships
+* Schooling behavior
+* Migration
+* Territory
+* Fear
+* Curiosity
+* Attraction to light
+* Attraction to blood
+* Attraction to vibrations
+
+Schools should behave like actual collective organisms.
+
+Predators should hunt prey even when the player is absent.
+
+The player should be able to exploit ecological relationships.
+
+Examples:
+
+Ink attracts one species while repelling another.
+
+Injuring prey may attract sharks.
+
+Turning off bioluminescence may hide the player from visual hunters but make sonar hunters more dangerous.
+
+Following dolphins may lead to feeding grounds.
+
+Whale falls create temporary ecosystems.
+
+---
+
+# 16. NON-COMBAT ACTIVITIES
+
+The game needs wonder as much as danger.
+
+Include:
+
+* Riding turtles
+* Swimming beside whales
+* Playing with dolphins
+* Following migrating manta rays
+* Cleaning parasites from animals
+* Restoring damaged coral
+* Discovering rare species
+* Finding hidden caves
+* Communicating through color
+* Solving ecological problems
+* Activating ancient sanctuaries
+* Escorting juvenile creatures
+* Observing hunting behavior
+* Discovering human wrecks
+* Collecting memories rather than physical collectibles
+
+Create an internal natural-history codex.
+
+When the player discovers a new real species, show its name and basic information subtly.
+
+The ocean itself becomes part game and part virtual aquarium.
+
+---
+
+# 17. WATER VISUALS
+
+The ocean should be one of the most beautiful water environments possible in a browser.
+
+Above and near the surface implement:
+
+* Dynamic waves
+* Foam
+* Refraction
+* Reflection
+* Sun glitter
+* Shoreline interaction
+* Underwater caustics
+
+Below water implement:
+
+* Wavelength-dependent light absorption
+* Volumetric scattering
+* Depth-dependent color
+* Suspended particles
+* Marine snow
+* God rays
+* Local bioluminescent lighting
+* Distortion from temperature gradients
+* Hydrothermal shimmer
+* Ink volume rendering
+
+Red light should disappear rapidly.
+
+The upper ocean transitions from turquoise to blue.
+
+The deep ocean becomes increasingly monochromatic until biological lights provide most visible color.
+
+At mythological depths, impossible colors gradually return.
+
+---
+
+# 18. GRAPHICAL STYLE
+
+Aim for realistic marine biology rather than cartoon sea creatures.
+
+The surrealism comes from composition, lighting, scale and eventually impossible organisms.
+
+The squid itself must be beautiful enough to watch for hours.
+
+Implement:
+
+* Translucent skin
+* Subsurface appearance
+* Iridescence
+* Dynamic chromatophores
+* Wet specular response
+* Visible eyes
+* Responsive pupils
+* Mantle deformation
+* Breathing
+* Fin undulation
+* Tentacle musculature
+* Sucker detail
+* Damage and healing
+
+Animals should be recognizable real species whenever possible.
+
+Mythological creatures should appear as plausible evolutionary forms first and supernatural beings second.
+
+---
+
+# 19. VEDIC VISUAL LANGUAGE
+
+Avoid simply covering every wall with random religious symbols.
+
+The spiritual imagery should evolve gradually.
+
+Early game:
+
+Natural spirals, symmetry and subtle repeating geometry.
+
+Mid game:
+
+Lotus geometry, serpent forms, yantra-like arrangements and architecture that resembles temples without literally being terrestrial temples.
+
+Deep game:
+
+Reality itself develops mandala structures.
+
+Schools of fish arrange themselves geometrically.
+
+Hydrothermal currents form rotating patterns.
+
+Chromatophore pulses resemble Sanskrit-like geometric language.
+
+The Sudarshana Chakra can be interpreted as enormous rotating structures or vortices.
+
+Shiva's trident can appear geometrically in branching trench formations.
+
+Shesha can appear both as a divine serpent and as a recurring structural pattern.
+
+---
+
+# 20. MUSIC AND SOUND
+
+Sound is critical.
+
+Underwater audio should feel physical.
+
+Include:
+
+* Whale song
+* Shrimp crackle
+* Sonar
+* Distant geological rumbles
+* Hydrothermal vents
+* Current noise
+* Tentacle suction
+* Mantle contractions
+* Predator movement
+
+Music should fuse ambient oceanic sound with an original Vedic-inspired palette.
+
+Possible instrumentation:
+
+* Tanpura-like drones
+* Veena textures
+* Conch
+* Bells
+* Damaru-inspired rhythms
+* Deep percussion
+* Vocal drones
+* Processed underwater recordings
+
+As Shiva's influence increases, rhythmic structures intensify.
+
+Vishnu-associated regions favor sustained harmonic structures.
+
+At moments where both forces overlap, their musical systems interlock.
+
+---
+
+# 21. CAMERA
+
+Use a cinematic third-person aquatic camera.
+
+The camera should lag slightly behind turns to communicate fluid motion without creating input latency.
+
+Dynamic distance:
+
+* Close when crawling through caves
+* Medium during normal exploration
+* Far during high-speed swimming
+* Very far when controlling the late-game giant squid
+
+When gigantic creatures appear, subtly reframe the camera to emphasize their scale.
+
+Never prevent the player from controlling the animal merely for cinematic effect unless it is an intentional cutscene.
+
+---
+
+# 22. CONTROLS
+
+Desktop:
+
+* WASD: directional swimming
+* Mouse: aim/orientation
+* Shift: mantle jet
+* Space: ascend
+* Ctrl/C: descend
+* Left mouse: primary tentacle interaction
+* Right mouse: multi-arm grapple
+* Q: ink
+* E: sonar
+* R: chromatophore mode
+* F: contextual interaction
+
+Controller should be first-class.
+
+Analog sticks are ideal for swimming.
+
+Add optional advanced tentacle controls but do not require the player to manually manipulate eight arms simultaneously.
+
+The AI-assisted tentacle system should interpret player intention.
+
+---
+
+# 23. THREE.JS ARCHITECTURE
+
+Use modern Three.js with WebGPU as the primary renderer.
+
+Organize the game into independent systems.
+
+Suggested architecture:
+
+```text
+/src
+  /core
+    Game.js
+    Renderer.js
+    GameLoop.js
+    Input.js
+    SaveSystem.js
+
+  /player
+    SquidController.js
+    SquidPhysics.js
+    TentacleSystem.js
+    TentacleIK.js
+    JetSystem.js
+    ChromatophoreSystem.js
+    InkSystem.js
+    SonarSystem.js
+    GrowthSystem.js
+
+  /ocean
+    OceanSurface.js
+    UnderwaterVolume.js
+    Currents.js
+    DepthLighting.js
+    MarineSnow.js
+    HydrothermalSystem.js
+
+  /world
+    WorldStreamer.js
+    TrenchGenerator.js
+    CaveGenerator.js
+    BiomeManager.js
+    LandmarkManager.js
+    ProceduralScatter.js
+
+  /ecology
+    Ecosystem.js
+    SchoolSystem.js
+    PredatorAI.js
+    PreyAI.js
+    MigrationSystem.js
+    CreatureSpawner.js
+
+  /mythology
+    SamskaraSystem.js
+    ShrineSystem.js
+    GateSystem.js
+    VishnuSystem.js
+    ShivaSystem.js
+    AsuraSystem.js
+
+  /graphics
+    Materials.js
+    PostProcessing.js
+    Caustics.js
+    Bioluminescence.js
+    Volumetrics.js
+
+  /audio
+    AudioManager.js
+    BiomeAudio.js
+    CreatureAudio.js
+
+  /ui
+    HUD.js
+    Codex.js
+    PauseMenu.js
+```
+
+Do not build the project as one enormous HTML or JS file.
+
+---
+
+# 24. WEBGPU
+
+Use WebGPU for systems that benefit significantly from parallel computation.
+
+Good candidates:
+
+* Fish schooling
+* Marine snow
+* Plankton
+* Ink particles
+* Large creature populations
+* Current fields
+* Procedural vegetation movement
+* Bioluminescent particle fields
+* Certain procedural terrain operations
+
+Use Three.js TSL/node materials wherever appropriate.
+
+Provide WebGL2 fallback wherever practical.
+
+---
+
+# 25. PHYSICS
+
+Use a hybrid system.
+
+Rigid objects and major collisions can use Rapier or equivalent.
+
+Do not attempt to simulate every tentacle section as a full rigidbody chain.
+
+Tentacles should use a specialized position-based or Verlet-style simulation combined with IK and collision queries.
+
+Underwater movement requires custom forces:
+
+* Drag
+* Angular drag
+* Buoyancy
+* Current force
+* Mantle thrust
+* Fin thrust
+* Tentacle impulses
+
+Creatures should feel heavy underwater while remaining responsive.
+
+---
+
+# 26. STREAMING
+
+Never attempt to keep the entire Mariana descent in memory.
+
+Create vertical world cells.
+
+Stream cells according to:
+
+* Player depth
+* Horizontal position
+* Camera direction
+* Velocity
+
+Keep distant terrain at aggressively simplified LOD.
+
+Use instancing for:
+
+* Coral
+* Sponges
+* Rocks
+* Plants
+* Small fish
+* Vent worms
+* Particles
+
+Large recognizable animals get full animated models.
+
+---
+
+# 27. ASSETS
+
+First inspect all assets already supplied with the project.
+
+Reuse anything suitable.
+
+Improve materials, textures, topology and scale where necessary.
+
+For crucial hero assets, custom-build or procedurally create them when existing models are not good enough.
+
+Sketchfab can be used selectively for:
+
+* Real fish
+* Sharks
+* Whales
+* Turtles
+* Coral
+* Submarines
+* Research equipment
+* Ruins
+* Rock formations
+
+Do not make the world feel like an asset store collage.
+
+Normalize:
+
+* Scale
+* Materials
+* Texture resolution
+* Lighting response
+* Polygon density
+* Animation quality
+
+Maintain an asset attribution manifest.
+
+---
+
+# 28. PERFORMANCE TARGET
+
+The game must remain playable in a browser despite high visual ambition.
+
+Build quality tiers.
+
+### Ultra
+
+Full WebGPU effects, high creature populations, volumetrics and high-density vegetation.
+
+### High
+
+Slightly reduced particles and population.
+
+### Medium
+
+Reduced simulation distance, vegetation and volumetric quality.
+
+### Low
+
+Aggressive LOD and reduced post-processing while maintaining art direction.
+
+Target 60 FPS on capable modern hardware.
+
+Never allow one beautiful effect to destroy the whole game's performance.
+
+---
+
+# 29. DEVELOPMENT ORDER
+
+Do not begin by building dozens of fish.
+
+Get the animal correct first.
+
+### Phase 1: Squid laboratory
+
+Empty underwater environment.
+
+Perfect:
+
+* Swimming
+* Jet
+* Turning
+* Tentacles
+* Crawling
+* Grappling
+* Ink
+* Sonar
+* Chromatophores
+
+Do not continue until controlling the squid is intrinsically fun.
+
+### Phase 2: Vertical ocean prototype
+
+Build a continuous descent from surface to 2,000 meters.
+
+Demonstrate:
+
+* Depth lighting
+* Streaming
+* Terrain generation
+* Water effects
+* Currents
+
+### Phase 3: Ecology
+
+Add:
+
+* Schooling prey
+* Sharks
+* Jellyfish
+* Large passive animals
+* Predator/prey relationships
+
+### Phase 4: Procedural world
+
+Implement biome rules, cave generation, landmarks and master-room insertion.
+
+### Phase 5: Progression
+
+Implement growth, samskara, reincarnation and ability evolution.
+
+### Phase 6: Full descent
+
+Build every biome through Challenger Deep.
+
+### Phase 7: Mythological layer
+
+Add Nāga structures, Asura corruption, Vedic mechanisms, Shiva events and star gates.
+
+### Phase 8: Polish
+
+Animation, audio, particles, transitions, cinematics, performance optimization and accessibility.
+
+---
+
+# 30. SUBAGENT WORKSTREAMS
+
+Fan out specialized agents rather than having every agent touch everything.
+
+Use dedicated agents for:
+
+1. Squid biomechanics and controls
+2. Tentacle physics and IK
+3. Ocean rendering
+4. Procedural trench generation
+5. Marine ecology and AI
+6. Creature modeling and animation
+7. Vedic art direction and mythology
+8. Sound and adaptive music
+9. Boss/leviathan encounters
+10. UI, save system and codex
+11. WebGPU optimization
+12. Testing and performance profiling
+
+Require each agent to integrate against shared interfaces rather than producing isolated demos.
+
+---
+
+# 31. DEFINITION OF DONE
+
+The project is not complete because a squid can swim around an ocean shader.
+
+A successful build must demonstrate all of the following in actual gameplay:
+
+* Beautiful controllable realistic squid
+* Tentacles physically affecting movement
+* Tentacle crawling
+* Tentacle grappling
+* Mantle jet propulsion
+* Dynamic ink
+* Chromatophore camouflage
+* Chromatophore communication
+* Sonar
+* Hunting
+* Predator avoidance
+* Creature riding
+* Large schools of fish
+* Large marine animals
+* Procedural ecology
+* Depth-dependent ocean appearance
+* Streaming procedural trench terrain
+* Surface island
+* Coral shallows
+* Twilight water
+* Open black abyss
+* Abyssal floor
+* Hadal trench
+* Hydrothermal vents
+* Lava
+* Human ruins/research infrastructure
+* Ancient submerged architecture
+* Nāga and Asura elements
+* Star gates
+* Vishnu/Shiva narrative
+* Growth
+* Reincarnation
+* Samskara permanent progression
+* Several major encounters
+* Smooth transitions between zones
+* Save/load
+* Controller support
+* Adaptive graphics settings
+* Stable playable performance
+
+Above all:
+
+**Descending should always make the player curious about what could possibly be deeper.**
+
+Every time the player thinks they have reached the strangest part of the ocean, reveal another layer beneath it.
+
+The whole game should feel like falling through the physical ocean into the unconscious mind of the universe.

@@ -1,0 +1,1183 @@
+# WORLD FLOW OVERHAUL: MAKE THE DESCENT IRRESISTIBLE
+
+The ocean must never feel like an empty vertical hallway. even the descent should be terraced regularly, squid should be able to swim much faster on a "turbo jet speed" selectable mode, introduced when being chased by a fast shark, the squid goes deep enough that the shark implodes, teaching the squid about it's depth abilitiy.
+
+The player should be swimming downward through the trench for more than simply because a depth meter tells them to, but the depth meter should lead them and it should have reason.  Every descent must be motivated by something visible, audible, biological, mythological or mechanical.
+
+The guiding principle is:
+
+**See something strange -> investigate it -> interact with life -> discover a clue -> unlock a new route -> descend into something even stranger.**
+
+The player should constantly be pulled forward by curiosity.
+
+At virtually any point, there should be at least one interesting thing:
+
+* In front of the player
+* Above or below them
+* Moving in the distance
+* Glowing in darkness
+* Calling through sonar
+* Being hunted
+* Hunting something else
+* Opening
+* Collapsing
+* Migrating
+* Singing
+* Flashing chromatophore signals
+* Leaving a trail
+* Hiding behind terrain
+* Leading toward the next region
+
+The game should feel inhabited.
+
+The deep ocean is dark, but it should not feel empty.
+
+As sunlight disappears, **life becomes the stars**.
+
+---
+
+# DROWNED METROPOLIS BECOMES OPTIONAL
+
+The drowned metropolis does not look realistic, save a note it needs a complete realistic aaa glowup later, but skip for now, it should NOT be the mandatory opening level.  It becomes an optional tutorial / side-region accessible shortly after entering the ocean.
+
+The player can visit it to learn:
+
+* Grappling
+* Crawling
+* Ink
+* Sonar
+* Environmental manipulation
+* Human technology
+* Basic predator avoidance
+
+But an experienced player can completely skip it.
+
+The actual opening should be overwhelmingly natural.
+
+The player's first impression of the game must be:
+
+**I am a squid living in a gigantic living ocean.**
+Not:
+**I am swimming through submerged buildings.**
+
+---
+start above water,
+# OPENING: THE ISLAND OF NARAYANA
+
+Begin on the tiny volcanic island. surrounded by Poseidon seas (https://github.com/owenyuwono/poseidon)
+
+The squid begins in a tide pool near its summit.
+This opening should feel intimate and alive. allowing the player to follow from the surface to the bottom of the sea over time.
+
+Populate the pools with:
+
+* Hermit crabs
+* Shrimp
+* Gobies
+* Anemones
+* Snails
+* Small octopuses
+* Tiny eels
+* Barnacles
+* Seaweed
+* Bioluminescent plankton at night
+
+The player initially crawls the few metres of shore to land, rather than swims.
+Rainwater begins overflowing the pools.
+Small waterfalls connect one pool to another.
+
+The squid is gradually carried down the island.
+
+The first major reveal happens when the player reaches the final pool and looks outward.
+Below is an enormous tropical ocean.
+Whales breach in the distance.
+Manta rays move beneath the surface.
+Birds circle above a feeding frenzy.
+A giant shadow passes below.
+
+The player dives.
+
+---
+
+# LEVEL 1: THE LIVING REEF
+
+Depth:
+
+0 to approximately 250 meters.
+
+This should be one of the most visually dense regions in the game.
+
+The purpose is to make the player fall in love with the ocean before showing them how frightening it can become.
+
+## Environment
+
+Create a huge reef complex rather than a simple drop-off.
+
+Include:
+
+* Coral canyons
+* Kelp forests
+* Underwater caves
+* Seagrass meadows
+* Sandbars
+* Volcanic arches
+* Blue holes
+* Reef walls
+* Lagoon areas
+* Wave-carved tunnels
+* Turtle feeding grounds
+* Giant clam gardens
+* Sunken trees
+* Small volcanic vents
+
+The terrain should constantly create routes and landmarks.
+
+## Life density
+
+Large schools should be everywhere.
+
+Examples:
+
+* Anthias
+* Butterflyfish
+* Surgeonfish
+* Barracuda
+* Tuna
+* Sardines
+* Reef sharks
+* Rays
+* Turtles
+* Dolphins
+* Moray eels
+* Octopuses
+* Cuttlefish
+
+Schools should react dramatically to predators.
+
+A shark attack should create a visible eruption of fish.
+
+This becomes natural spectacle and navigation.
+
+## Things to do
+
+The player can:
+
+* Hunt
+* Hide
+* Camouflage against coral
+* Play with dolphins
+* Follow turtles
+* Clean parasites from larger animals
+* Search caves
+* Rescue trapped creatures
+* Investigate shipwreck debris
+* Follow migrating fish
+* Learn chromatophore signals from cuttlefish
+* Find juvenile squid groups
+* Discover hidden shrines
+
+The player should constantly encounter small optional interactions.
+
+## First mystery trail
+The primary story begins through wildlife rather than exposition.
+A strange pulse moves through the reef.
+Every fish suddenly stops.
+Then hundreds of animals turn toward the same distant direction.
+A strange blue light appears deep beyond the reef.
+Some creatures begin migrating toward it.
+Others flee.
+The player sees a gigantic whale descend toward the light.
+This is the first major invitation downward.
+
+---
+
+# THE GAME NEEDS A VISIBLE TRAIL or at least compass aim that makes sense
+
+There should always be a loose environmental trail through the game.
+
+Titles can announce zones like chapters Never use giant objective arrows floating in the water.
+
+Instead use diegetic guidance.
+
+Possible trail systems include:
+
+## Migrating creatures
+
+Schools naturally move toward important regions.
+
+Follow them.
+
+## Bioluminescent organisms
+
+Certain plankton blooms create glowing rivers through the ocean.
+
+They behave almost like underwater auroras.
+
+
+##MiLITARY SUBMARINES AND ROBOT DRONES 
+
+## Whale song
+
+Low-frequency calls lead toward distant regions.
+
+## Narayana pulses
+
+Occasionally a distant divine pressure wave moves through the ocean.
+
+The player can see particles, fish and plants react to it.
+
+## Chromatophore messages
+
+Other cephalopods leave sequences of color patterns on rocks, creatures or themselves.
+
+## Ancient currents
+
+Some currents carry glowing particles from deep regions.
+
+Swimming upstream reveals their source.
+
+## Shesha fragments
+
+Rare serpent-like organisms or shed luminous scales form a recurring breadcrumb trail.
+
+## Human probes
+
+At certain depths, broken scientific probes point toward unexplained anomalies.
+
+The game should usually provide multiple possible signals simultaneously.
+
+---
+
+# LEVEL 2: THE BLUE CATHEDRAL
+
+250 to 700 meters.
+
+The reef transitions into gigantic underwater cliffs and vertical canyons.
+
+Sunbeams still reach down.
+
+The environment should resemble a cathedral made by geology.
+
+## Landmarks
+
+* Giant stone arches
+* Vertical kelp forests
+* Caverns illuminated from openings above
+* Massive coral towers
+* Underwater waterfalls caused by density differences
+* Manta migration corridors
+
+## New gameplay
+
+Introduce strong vertical currents and diagonal zones.
+
+The squid learns to:
+
+* Ride updrafts
+* Jet between currents
+* Grapple walls
+* Hide from predators
+* Use tentacles to climb current-exposed surfaces and terraces teaming with crabs and life.
+
+## Wildlife event system
+
+Events continually happen.
+
+Examples:
+crabs of various natures exist at virtually all levels from simple crab to super deep alien crab. 
+
+A tuna school sweeps past.
+
+Dolphins hunt it.
+
+A shark attacks the dolphins.
+
+A whale descends through the entire scene.
+
+The player can follow any participant.
+
+This should frequently create spontaneous adventure.
+
+## Primary mystery
+
+A whale the player has previously encountered begins behaving strangely.
+
+It repeatedly dives deeper than its species normally should.
+
+Following it reveals a glowing fissure.
+
+The whale disappears into the darkness.
+
+The player now has a clear reason to follow.
+
+---
+
+# LEVEL 3: THE TWILIGHT MIGRATION
+
+700 to 1,500 meters.
+
+This is where the ocean begins becoming magical.
+
+Do not simply make everything dark.
+
+Replace sunlight with biological light.
+
+The player should feel like they have entered a living night sky.
+
+## Visual philosophy
+
+Thousands of small organisms create distant points of light.
+
+When looking into open water, the player sees:
+
+* Jellyfish
+* Lanternfish
+* Siphonophores
+* Shrimp
+* Comb jellies
+* Squid
+* Anglerfish
+* Drifting colonies
+
+They should look like constellations.
+
+Some creatures flash in synchronized patterns.
+
+Some create enormous moving waves of light.
+
+The player should actually WANT to swim away from the wall because the open water contains spectacular things.
+
+## Mesopelagic migration
+
+Simulate vertical migration.
+
+At certain times, billions of organisms move upward or downward.
+
+This becomes an enormous ecological highway.
+
+The player can literally ride the migration deeper.
+
+Predators gather around it.
+
+This creates gameplay automatically.
+
+## Anglerfish mechanics
+
+Anglerfish should not simply attack.
+
+Different species use different lure patterns.
+
+Sometimes distant lights are:
+
+* Prey
+* Predators
+* Friendly creatures
+* Collectibles
+* Shrines
+* Environmental hazards
+
+The player learns to interpret them.
+
+## Bioluminescent communication
+
+Cephalopods begin communicating through light.
+
+A recurring mysterious squid appears.
+
+It flashes a specific pattern.
+
+If the player responds correctly, it leads the player through otherwise hidden routes.
+
+This creature becomes one of the game's recurring guides.
+
+---
+
+# LEVEL 4: THE NIGHT OCEAN
+It must be exciting 
+1,500 to 3,000 meters.
+MILITARY SUBS THE SIZE OF WHALES, NAVY DRONES THE SIZE OF THE PLAYER, (navy drones are curious and friendly robots not harmful)
+This is the area that currently risks becoming boring.
+It must instead become one of the most interesting and mysterious parts of the entire game. Haunting yet mystically fascinating, dark yet luminscent,
+
+Do NOT create a huge empty dark trench wall and expect the player to simply descend.
+
+Create an enormous three-dimensional ecosystem.
+
+use a secondary vision similar to spectral sense or something to make the darkness ultraviolet sight
+
+## Open-water islands
+
+Instead of geography being only solid terrain, create temporary landmarks made from living organisms.
+
+Examples: 
+
+massive whales covered in bioluminscent symbiotes/barnicles
+giant classified nuclear submarines with lights
+
+
+### giant Siphonophore colonies
+
+Gigantic colonial organisms hundreds of meters long.
+
+Entire ecosystems gather around them.
+
+### Jellyfish storms
+
+Thousands of jellyfish drift through currents like glowing clouds.
+
+### Marine snow rivers
+Dense streams of falling organic matter attract entire food chains.
+
+### Whale highways
+
+Deep-diving whales repeatedly travel along particular routes.
+
+### Giant squid hunting grounds
+
+The player can observe enormous squid hunting fish before eventually encountering them directly.
+
+### Floating carcasses
+
+Dead whales slowly sink through the water column.
+
+They attract:
+
+* Sharks
+* Hagfish
+* Squid
+* Crustaceans
+* Strange scavengers
+
+A sinking giant whale or submarine explosion can effectively become a moving level. rare submarine battles and explosions at super depths happen at key points keeping the story interesting Follow it down for hundreds of meters.
+
+---
+
+# GIANT MOVING EVENTS
+
+The ocean needs dynamic spectacles constantly pulling the player's attention.
+
+Examples:
+
+## The Falling Whale
+
+A dead whale descends through darkness.
+
+Hundreds of creatures follow it.
+
+The player can follow the carcass downward.
+
+Eventually it lands on the abyssal floor and becomes a whale-fall ecosystem.
+
+This naturally moves the player between biomes.
+
+## The Sperm Whale Hunt
+
+A sperm whale dives past the player.
+
+Its clicks echo through the environment.
+
+Far below, a giant squid responds.
+
+The player can follow the whale into a massive hunt.
+
+## Lanternfish River
+
+Millions of fish create a glowing river flowing downward through open water.
+
+The player can enter the stream and travel with them.
+
+## Predator Panic
+
+Thousands of lights suddenly extinguish simultaneously.
+
+Something enormous is approaching.
+
+## Divine Pulse
+
+The entire ocean flashes blue for half a second.
+
+The player sees the silhouette of a gigantic serpent stretching far below.
+
+Then it disappears.
+
+These events create reasons to move.
+
+---
+
+# LEVEL 5: THE ABYSSAL FOREST
+
+3,000 to 5,000 meters.
+
+Do not make the abyssal plain a desert.
+
+Turn portions of it into alien biological landscapes.
+
+## Giant biological structures
+
+Create enormous:
+
+* Glass sponge towers
+* Sea pen fields
+* Crinoid forests
+* Tube worm gardens
+* Xenophyophore colonies
+* Mushroom-like sponges
+* Coral-like deep-sea structures
+
+The player's light illuminates patches of life surrounded by darkness.
+
+## Brine lakes
+
+Create underwater lakes at the ocean floor.
+
+They have visible shorelines.
+
+Some creatures cannot cross them.
+
+Others live inside them.
+
+Brine waterfalls pour over cliffs.
+
+This provides strong terrain landmarks.
+
+## Whale falls
+
+Whale falls become major ecological hubs.
+
+Different decomposition stages create different creatures and gameplay.
+
+Some whale skeletons contain:
+
+* Hidden caves
+* Shrines
+* Parasites
+* Predators
+* Ancient objects tangled within ribs
+
+## The pilgrimage
+
+Large numbers of deep-sea creatures begin moving toward a particular trench opening.
+
+Nobody knows why.
+
+The player joins the migration.
+
+This becomes the path toward the hadal world.
+
+---
+
+# LEVEL 6: THE HADAL CLIFFS
+
+5,000 to 7,000 meters.
+
+Now the terrain becomes extreme.
+
+Gigantic walls.
+
+Narrow canyons.
+
+Overhangs.
+
+Earthquakes.
+
+Mudslides.
+
+Hydrothermal fissures.
+
+## Gameplay becomes more physical
+
+The squid increasingly uses tentacles.
+
+Strong currents make ordinary swimming dangerous.
+
+The player must:
+
+* Grapple rocks
+* Crawl along walls
+* Swing across fissures
+* Shelter behind terrain
+* Use jets strategically
+
+## Hadal creatures
+
+Populate aggressively.
+
+Examples:
+
+* Giant amphipods
+* Snailfish
+* Isopods
+* Transparent predators
+* Blind cephalopods
+* Long-limbed crabs
+* Worm colonies
+* Strange pressure-adapted fish
+
+Real animals should gradually blend with plausible fictional descendants.
+
+## Glowing trench walls
+
+Bioluminescent bacterial colonies coat portions of the geology.
+
+Vast wall sections resemble constellations.
+
+Some patterns resemble yantras.
+
+The player begins realizing the biology itself is expressing geometry.
+
+---
+
+# LEVEL 7: THE BLACK GARDEN
+
+7,000 to 8,500 meters.
+
+This should be visually outrageous.
+
+Hydrothermal activity becomes enormous.
+
+The terrain contains:
+
+* Black smokers
+* White smokers
+* Lava tubes
+* Sulfur deposits
+* Mineral chimneys
+* Tube worm forests
+* Superheated vents
+
+## Hydrothermal cities
+
+Build whole ecosystems around vent complexes.
+
+Thousands of creatures should gather.
+
+There is more life here than in much of the surrounding abyss.
+
+This reverses the expectation that deeper always means emptier.
+
+## Thermal gameplay
+
+The player uses:
+
+* Cold currents
+* Hot plumes
+* Thermal cover
+* Pressure gradients
+
+Certain predators can only enter particular temperature zones.
+
+The player manipulates this during encounters.
+
+## Shiva arrives environmentally
+
+Volcanic activity begins synchronizing into rhythmic pulses.
+
+Earthquakes happen in patterns.
+
+Lava flashes.
+
+Vents erupt.
+
+Deep percussion gradually joins the soundtrack.
+
+The player realizes the pattern resembles a dance.
+
+---
+
+# LEVEL 8: NĀGA TERRITORY
+
+8,500 to 9,500 meters.
+
+The player finally reaches unmistakably impossible civilization.
+
+But it is not a drowned human city.
+
+It appears grown from the ocean.
+
+Architecture combines:
+
+* Serpent forms
+* Coral
+* Bone
+* Mineral crystal
+* Shell
+* Vedic geometry
+
+Nāga creatures inhabit the structures.
+
+Some are peaceful.
+
+Some are territorial.
+
+Some are intelligent.
+
+## Communication becomes central
+
+The squid now uses chromatophores almost like language.
+
+Conversations can occur entirely through:
+
+* Color
+* Pulse timing
+* Body posture
+* Tentacle gesture
+* Sonar
+
+The player negotiates passage rather than constantly fighting.
+
+## The revelation
+
+The Nāga explain indirectly that something beneath the trench is awakening.
+
+They are not guarding treasure.
+
+They are guarding a door.
+
+---
+
+# LEVEL 9: THE ASURA WOUND
+
+9,500 to 10,500 meters.
+
+Reality begins visibly malfunctioning.
+
+The ecosystem is being corrupted.
+
+## Impossible biology
+
+Animals merge with:
+
+* Mineral structures
+* Machinery
+* Light
+* Geometry
+
+Some animals appear partially duplicated.
+
+Some swim through rock.
+
+Some cast shadows in the wrong direction.
+
+Sonar reveals structures invisible to normal sight.
+
+## Gravity anomalies
+
+Currents occasionally flow vertically downward like waterfalls.
+
+Some cavern interiors appear larger than their exterior geometry.
+
+The player can swim into spaces that should not fit inside the trench.
+
+## Active objectives
+
+At this point the player is not simply descending.
+
+The player is attempting to reactivate several ancient seals.
+
+Each seal requires a different mechanic:
+
+* Grappling
+* Chromatophore language
+* Ink
+* Sonar
+* Predator manipulation
+* Current riding
+* Biological symbiosis
+
+Completing them opens the path to Challenger Deep.
+
+---
+
+# LEVEL 10: CHALLENGER DEEP
+
+10,500 to approximately 11,000 meters.
+
+Do not make the final thousand meters another corridor.
+
+It should feel like approaching the center of the world.
+
+Huge lava fissures.
+
+Hydrothermal temples.
+
+Nāga guardians.
+
+Bioluminescent storms.
+
+Gigantic creatures visible kilometers away.
+
+Ancient machines embedded in tectonic plates.
+
+The sea floor itself begins moving.
+
+## Star gates
+
+The player finally sees the structures that have been hinted at throughout the game.
+
+Several gigantic rings are buried vertically in the trench.
+
+Their surfaces combine:
+
+* Stone
+* Crystal
+* Biological tissue
+* Unknown technology
+* Moving yantras
+
+Fish swim through inactive gates and sometimes disappear.
+
+Whales gather around them.
+
+Nāga coil around them.
+
+The deepest gate has partially opened.
+
+Beyond it is visible not empty space, but another ocean.
+
+---
+
+# PLAYER MOTIVATION SYSTEM
+
+The game needs overlapping motivations at all times.
+
+## Immediate motivation
+
+Something interesting is happening nearby.
+
+Examples:
+
+* Creature being hunted
+* Flashing signal
+* Hidden cave
+* Rare animal
+* Migration
+* Strange sound
+* Predator
+* Puzzle
+
+## Medium motivation
+
+Reach the next ecological landmark.
+
+Examples:
+
+* Whale fall
+* Reef
+* Vent field
+* Nāga structure
+* Trench opening
+* Research station
+
+## Long motivation
+
+Discover what is causing the pulses from the bottom of the ocean.
+
+## Emotional motivation
+
+The player begins recognizing individual recurring creatures.
+
+Examples:
+
+* A scarred sperm whale
+* A manta with distinctive markings
+* A young dolphin
+* A luminous squid guide
+* A gigantic turtle
+
+Some reappear hundreds or thousands of meters deeper.
+
+Seeing one unexpectedly creates emotional continuity through the descent.
+
+---
+
+# RECURRING GUIDE: THE BLUE SQUID
+
+Introduce another mysterious cephalopod early.
+
+It is slightly larger than the player and covered in luminous blue patterns.
+
+It appears briefly.
+
+It never speaks.
+
+It communicates using chromatophores.
+
+Initially the player cannot understand it.
+
+The Blue Squid occasionally:
+
+* Leads toward food
+* Warns of predators
+* Reveals caves
+* Demonstrates mechanics
+* Appears before important discoveries
+
+Eventually it begins leading the player deeper.
+
+Sometimes the player loses it for an entire biome.
+
+Then suddenly its blue light appears far away in black water.
+
+The player naturally swims toward it.
+
+At extreme depths, reveal that this animal may not be an ordinary squid at all.
+
+It may be another manifestation of Narayana.
+
+Or it may have been leading previous incarnations through the ocean for thousands of years.
+
+Do not fully explain it.
+
+---
+
+# OPEN WATER MUST BE INTERESTING
+
+The trench wall cannot be the only source of content.
+
+Create points of interest suspended in the water column.
+
+Examples:
+
+* Giant jellyfish
+* Siphonophore colonies
+* Whale carcasses
+* Feeding frenzies
+* Squid spawning clouds
+* Bioluminescent plankton storms
+* Migration streams
+* Research submarines
+* Floating eggs
+* Predator territories
+* Strange bubbles rising from below
+* Massive vertical currents
+* Schools creating geometric formations
+
+The player should frequently see something glowing hundreds of meters away and decide to investigate it.
+
+---
+
+# BIOLUMINESCENCE DENSITY
+
+Below approximately 500 meters, darkness must progressively become populated by biological light.
+
+Do not simply reduce visibility.
+
+Increase luminous points.
+
+Think of the darkness as outer space.
+
+Small organisms become stars.
+
+Larger animals become spacecraft.
+
+Gigantic predators become moving eclipses.
+
+Use layered depth:
+
+Near:
+
+Bright detailed organisms.
+
+Mid-distance:
+
+Hundreds of identifiable glowing creatures.
+
+Far:
+
+Thousands of tiny points of light.
+
+Occasionally:
+
+A very distant enormous light moves.
+
+The player cannot initially determine its size.
+
+Then another light appears.
+
+Then the two lights blink simultaneously.
+
+They are eyes.
+
+---
+
+# ENVIRONMENTAL QUESTS
+
+Add lightweight procedural encounters throughout every biome.
+
+Examples:
+
+## Lost juvenile
+
+A juvenile squid flashes distress signals.
+
+Follow it to a predator or collapsed cave.
+
+## Parasite removal
+
+A whale repeatedly rubs against terrain.
+
+The player discovers parasites and removes them with tentacles.
+
+## Trapped manta
+
+Fishing line has caught a ray.
+
+Cut or manipulate debris to release it.
+
+## Predator chain
+
+A wounded fish flees.
+
+Following it leads to a predator.
+
+Following the predator leads to something even larger.
+
+## Strange song
+
+Sonar reveals a rhythmic signal.
+
+Track it across several kilometers.
+
+## Egg field
+
+Protect a cephalopod nesting site from scavengers.
+
+## Current puzzle
+
+A migrating school cannot pass through a disrupted current.
+
+Manipulate vents or structures.
+
+## Bioluminescent courtship
+
+Observe and reproduce the pattern of a rare squid.
+
+## Whale memory
+
+A recurring whale leads the player to an ancient location.
+
+These should overlap with exploration rather than pause the game with mission screens.
+
+---
+
+# DISCOVERY REWARDS
+
+Reward curiosity immediately.
+
+Investigating interesting things can give:
+
+* Samskara
+* New chromatophore patterns
+* New biological abilities
+* Sonar memories
+* New ink chemistry
+* Temporary symbiotic companions
+* Codex discoveries
+* Permanent map knowledge
+* Access to alternative routes
+
+Do not make the primary reward generic currency.
+
+The reward should usually modify what the squid can perceive, communicate with or physically do.
+
+---
+
+# DEPTH SHOULD CHANGE GAMEPLAY
+
+Every 1,000 to 2,000 meters should introduce a genuinely new idea.
+
+Example progression:
+
+0 m:
+Swimming.
+
+200 m:
+Currents.
+
+500 m:
+Bioluminescence.
+
+1,000 m:
+Migration highways.
+
+1,500 m:
+Classified Submarines and Deep sonar.
+
+2,000 m:
+Large predator ecology.
+
+3,000 m:
+The ET Abyss with Whale falls.
+
+4,000 m:
+Atlantis Brine lakes.
+
+5,000 m:
+Extreme grappling traversal and Volcanic Flumes.
+
+6,000 m:
+Extreme Lava and Steam lights  Thermal environments.
+
+7,000 m:
+Biological language. Military Experiment Zone
+
+8,000 m:
+Nāga civilization.
+
+9,000 m:
+Reality anomalies.
+
+10,000 m:
+Star-gate mechanics.
+
+This ensures the player is never merely repeating the same activity in darker water. and transitioning with speedy jets makes it convenient
+
+---
+
+# PACING RULE
+
+Something meaningful should happen roughly every 20 to 60 seconds.
+
+This does NOT mean constant combat.
+
+Meaningful events include:
+
+* Seeing a new creature
+* Discovering unusual terrain
+* Hearing something
+* Encountering a current
+* Watching a hunt
+* Finding a cave
+* Seeing bioluminescent behavior
+* Receiving a chromatophore message
+* Triggering a migration
+* Finding a ruin
+* Encountering a gigantic animal
+
+Avoid stretches where the player swims for several minutes through featureless darkness.
+
+If procedural generation creates such an area, automatically inject:
+
+* Wildlife
+* Landmarks
+* Migration
+* Currents
+* Events
+* Sound cues
+* Bioluminescent trails
+
+---
+
+# FINAL DESIGN RULE
+
+The player should never think:
+
+**"I guess I need to go deeper."**
+
+The player should think:
+
+**"What the hell is that glowing thing down there?"**
+
+Then follow it.
+
+And when they reach it, something else should already be calling from even deeper.

@@ -4,3 +4,18 @@ test-results/
 playwright-report/
 .DS_Store
 artifacts/*.webm
+# --- Standard OS / Editor / Secrets / Build Ignores ---
+._*
+Thumbs.db
+*.swp
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vite/
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
